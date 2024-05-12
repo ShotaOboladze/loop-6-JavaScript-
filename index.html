@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>loop-6</title>
+    <meta name="keywords" content="Front-End Develepment, JavaScript" />
+    <meta name="describtion" content="Loop-6(JavaScript)" />
+    <meta name="author" content="Shota.Oboladze" />
+    <!-- favicon-SHO -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icons/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icons/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="icons/favicon/site.webmanifest" />
+    <!-- END favicon-SHO -->
+  </head>
+  <body>
+    <center>
+      <script type="text/javascript">
+        let array = [12, 67, 34, 122, 10, -90, -12, -100, -546, 3452, -1, -2];
+        // let arrPlus = [];
+        // let arrMinus = [];
+
+        for (let i = 0; i <= array.length; i++) {
+          if (array[i] > 0) {
+            let arrPlus = array[i];
+            document.write(arrPlus + " ");
+          }
+        }
+
+        document.write("<br><br>");
+
+        for (let i = 0; i <= array.length; i++) {
+          if (array[i] < 0) {
+            let arrMinus = array[i];
+            document.write(arrMinus + " ");
+          }
+        }
+      </script>
+    </center>
+  </body>
+</html>
